@@ -1,0 +1,54 @@
+/*
+===============
+GENERAL
+===============
+*/
+
+body {
+	font-family: 'Chivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Asul', sans-serif;
+}
+
+/*
+============
+HEADER
+============
+*/
+
+header {
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+header h1 {
+	font-size: 3.5em;
+	display:  inline-block;
+	border-bottom: solid 2px white;
+}
+
+header p {
+	font-size: 2em;
+}
+
+header h1, header p {
+	text-shadow: 2px 2px 5px black;
+}
+
+header div {
+	margin-top: 6rem;
+	padding-bottom: 10rem;
+}
+
+.btn-purple {
+	background-color: #745d94;
+	border-color: #745d94;
+}
+
+.btn-purple:hover {
+	background-color: #4B3C5E;
+	border-color: #4B3C5E;
+}
