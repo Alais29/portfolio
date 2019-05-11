@@ -2,6 +2,7 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="icon" href="assets/img/tab-logo.png">
 		<title>Alfonsina Lizardo | Portafolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
@@ -21,7 +22,7 @@
 		
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container">
-				<a class="navbar-brand" href="#inicio"><img src="assets/img/logo.png" alt="" height="40px"></a>
+				<a class="navbar-brand" href="#inicio"><img src="assets/img/logo.png" alt="Logo" height="40px"></a>
 			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    	<span class="navbar-toggler-icon"></span>
 			  	</button>
@@ -34,26 +35,26 @@
 			        		<a class="nav-link" href="#experiencia">Experiencia</a>
 			      		</li>
 			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">Trabajos</a>
+			        		<a class="nav-link" href="#trabajos">Trabajos</a>
 			      		</li>
 			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">Contacto</a>
+			        		<a class="nav-link" href="#contacto">Contacto</a>
 			      		</li>
 			    	</ul>
 			  	</div>
 		  	</div>
 		</nav>
 
-		<header class="my-5 py-5 text-white">
+		<header class="my-5 py-5 text-white" id="inicio">
 			<div class="container text-right pt-5">
 				<h1 class="mt-5 pt-5">Alfonsina Lizardo</h1>
 	            <p>Desarrolladora Front End</p>
-	            <button class="btn btn-purple">Mis trabajos</button>
+	            <a class="btn btn-purple" href="#trabajos">Mis trabajos</a>
             </div>
 		</header>
 
-		<section class="container my-5 py-5" id="about">
-			<h2 class="text-center pb-5">Sobre mi</h2>
+		<section class="container my-5 pt-5" id="about">
+			<h2 class="text-center py-5">Sobre mi</h2>
 			<div class="row">
 				<div class="col-md-6">
 					<p>Mi nombre es Alfonsina Lizardo, soy médico, me gradué en el 2012 en Venezuela, trabajé como tal por algunos años pero nunca sentí que realmente fuera mi vocación. En el 2014 conocí a mi esposo, y gracias a él, encontré mi verdadera pasión: ¡Programar! Desde entonces me fijé como meta el convertirme en desarrolladora, estudié por mi cuenta por 1 año aproximadamente y progresé bastante.</p>
@@ -65,7 +66,7 @@
 		</section>
 
 		<section class="container my-5 py-5 text-center" id="experiencia">
-			<h2 class="pb-5">Mi experiencia</h2>
+			<h2 class="py-5">Mi experiencia</h2>
 			<div class="row">
 				<div class="col-md-6">
 					<i class="fas fa-language fa-10x"></i>
@@ -79,6 +80,72 @@
 					<p>2017-2019</p>
 					<button class="btn btn-outline-purple">Más...</button>
 				</div>
+			</div>
+		</section>
+
+		<section class="bg-purple my-5 py-5" id="trabajos">
+			<div class="container py-5">
+				<h2 class="text-center text-white py-5">Mis últimos trabajos</h2>
+				<div class="card-deck">
+					<div class="card">
+						<img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet and coffee">
+						<div class="card-body">
+							<h5 class="card-title">Meet & Cofee</h5>
+							<p class="card-text">Un sitio web simple pero atractivo utilizando solo HTML y CSS.</p>
+						    <a href="https://alais29.github.io/meet-coffee/" target="_blank" class="btn btn-purple">Ver</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
+						<div class="card-body">
+							<h5 class="card-title">Iguana Page</h5>
+							<p class="card-text">Sitio web simple y descriptivo con información acerca de las iguanas, elaborado solo con HTML y CSS.</p>
+							<a href="https://alais29.github.io/iguana-page/" target="_blank" class="btn btn-purple">Ver</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/img/suricata.png" class="card-img-top" alt="">
+						<div class="card-body">
+							<h5 class="card-title">Suricata</h5>
+							<p class="card-text">Sitio web totalmente responsivo que simula un sitio de compras, elaborado con Bootstrap.</p>
+							<a href="https://alais29.github.io/Suricata/" target="_blank" class="btn btn-purple">Ver</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-deck">
+					<div class="card">
+						<img src="assets/img/cuppon.png" class="card-img-top" alt="Meet and coffee">
+						<div class="card-body">
+							<h5 class="card-title">Cuppon</h5>
+							<p class="card-text">Sitio web responsivo que simula un sitio de venta de cupones, elaborado con Bootstrap.</p>
+						    <a href="https://alais29.github.io/cuppon/" target="_blank" class="btn btn-purple">Ver</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/img/ricomida.png" class="card-img-top" alt="Iguana Page">
+						<div class="card-body">
+							<h5 class="card-title">Ricomida</h5>
+							<p class="card-text">Sitio web totalmente responsivo de recetas de comidas, elaborado con Bootstrap.</p>
+							<a href="https://alais29.github.io/ricomida/" target="_blank" class="btn btn-purple">Ver</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="assets/img/cercos-electricos.png" class="card-img-top" alt="">
+						<div class="card-body">
+							<h5 class="card-title">Cercos Eléctricos</h5>
+							<p class="card-text">Sitio web para una empresa de instalación de cercos eléctricos, totalmente responsivo con el uso de Bootstrap.</p>
+							<a href="https://alais29.github.io/cercos-electricos/" target="_blank" class="btn btn-purple">Ver</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="my-5 py-5" id="contacto">
+			<div class="container">
+				<h2 class="text-center pb-3">Contacto</h2>
+				<div class="typeform-widget" data-url="https://alfonsinalizardo.typeform.com/to/l3LiCV" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=l3LiCV&utm_source=typeform.com-13848375-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 			</div>
 		</section>
 
