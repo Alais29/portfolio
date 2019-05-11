@@ -12,6 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Asul', sans-serif;
 }
 
+h2 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.1em;	
+}
+
 /*
 ============
 HEADER
@@ -46,9 +54,39 @@ header div {
 .btn-purple {
 	background-color: #745d94;
 	border-color: #745d94;
+	color: white;
 }
 
 .btn-purple:hover {
 	background-color: #4B3C5E;
 	border-color: #4B3C5E;
+	color: white;
+}
+
+/*
+============
+ABOUT Y EXPERIENCIA
+============
+*/
+
+#about h2, #experiencia h2 {
+	color: #391867;
+}
+
+#about p {
+	line-height: 35px;
+}
+
+#experiencia i {
+	color: #391867;
+}
+
+.btn-outline-purple {
+	border-color: #4B3C5E;
+}
+
+.btn-outline-purple:hover {
+	background-color: #745d94;
+	border-color: #745d94;
+	color: white;
 }
