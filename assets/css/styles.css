@@ -109,9 +109,10 @@ WORK
 	top: 450px;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev:link, 
+.carousel-control-next:link {
 	background-color: #391867;
-	width: 5%;
+	width: 2rem;
 	opacity: 0.2;
 }
 
@@ -120,7 +121,8 @@ WORK
 	opacity: 0.2;
 }
 
-.carousel-control-prev:hover, .carousel-control-next:hover {
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
 	opacity: 0.4;
 }
 
@@ -156,3 +158,27 @@ MEDIA QUERIES
 ============
 */
 
+/* Large devices or smaller */
+@media (max-width: 1199.98px) {
+	header div .pt-5{
+		padding-top: 12rem!important;
+	}
+
+	header div {
+		padding-bottom: 0rem!important;
+	}
+}
+
+/* Medium devices and smaller */
+@media (max-width: 991.98px) {
+	#trabajos .btn {
+		width: 50%;
+	}
+}
+
+/* Small devices and smaller */
+@media (max-width: 767.98px) {
+	.comm-manager {
+		margin-top: 3rem;
+	}
+}
