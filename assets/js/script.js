@@ -1,7 +1,7 @@
 $(function(){
 	
 	//Smooth Scrolling
-	$(".nav-item a.nav-link, .navbar-brand").click(function(event) {
+	$(".nav-item a.nav-link, .navbar-brand, .btn-work").click(function(event) {
 		if (this.hash !== "") {
 			event.preventDefault();
 

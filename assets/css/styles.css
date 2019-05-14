@@ -22,6 +22,17 @@ p {
 
 /*
 ============
+NAVBAR
+============
+*/
+
+.nav-link:hover,
+.navbar-nav .active {
+	background-color: #745d94;
+}
+
+/*
+============
 HEADER
 ============
 */
@@ -106,30 +117,30 @@ WORK
 }
 
 .carousel-indicators {
-	top: 450px;
+	top: 460px;
 }
 
 .carousel-control-prev:link, 
 .carousel-control-next:link {
 	background-color: #391867;
 	width: 2rem;
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .carousel-control-prev:visited, 
 .carousel-control-next:visited {
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .carousel-control-prev:hover, 
 .carousel-control-next:hover {
-	opacity: 0.4;
+	opacity: 0.5;
 }
 
 
 .carousel-control-prev:active, 
 .carousel-control-next:active {
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 /*
@@ -150,6 +161,14 @@ FOOTER
 
 footer i {
 	margin-left: 20px;
+}
+
+.footer-icons a i {
+	color: white;
+}
+
+.footer-icons a i:hover {
+	color: #a991c9;
 }
 
 /*
@@ -188,6 +207,15 @@ MEDIA QUERIES
 
 	.carousel-indicators {
 		top: 1590px;
+	}
+
+	footer .footer-icons,
+	footer .footer-logo {
+		text-align: center!important;
+	}
+
+	footer img {
+		margin-bottom: 2rem;
 	}
 
 }
