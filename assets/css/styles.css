@@ -181,4 +181,13 @@ MEDIA QUERIES
 	.comm-manager {
 		margin-top: 3rem;
 	}
+
+	#trabajos .btn {
+		width: 30%;
+	}
+
+	.carousel-indicators {
+		top: 1590px;
+	}
+
 }
