@@ -105,6 +105,37 @@ WORK
 	width: 30%;
 }
 
+.carousel-indicators {
+	top: 450px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	background-color: #391867;
+	width: 5%;
+	opacity: 0.2;
+}
+
+.carousel-control-prev:visited, 
+.carousel-control-next:visited {
+	opacity: 0.2;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+	opacity: 0.4;
+}
+
+
+.carousel-control-prev:active, 
+.carousel-control-next:active {
+	opacity: 0.2;
+}
+
+/*
+============
+CONTACTO
+============
+*/
+
 #contacto h2 {
 	color: #391867;
 }
@@ -119,4 +150,9 @@ footer i {
 	margin-left: 20px;
 }
 
+/*
+============
+MEDIA QUERIES
+============
+*/
 
