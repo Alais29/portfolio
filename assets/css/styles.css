@@ -237,16 +237,5 @@ MEDIA QUERIES
 	}
 }
 
-@media (max-width: 426px) {
-	.carousel-indicators {
-		top: 1450px;
-	}	
-}
-
-@media (max-width: 376px) {
-	.carousel-indicators {
-		top: 1350px;
-	}	
-}
 
 
